@@ -7,6 +7,7 @@
 body{
     max-width: 1550px;
     margin: auto;
+    font-family: "Inter", sans-serif;
 }
 
 /* common style */
@@ -49,7 +50,6 @@ ul li a{
 /* Header style start */
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/banner.jpg");
-    font-family: "Inter", sans-serif;
     margin-bottom: 80px;
     background-repeat: no-repeat;
     background-position: center;
@@ -75,7 +75,6 @@ header p{
     padding-bottom: 349px;
 }
 .btn-primary-2{
-    font-family: "Inter", sans-serif;
     background-color: #1D4ED8;
     color: #FFFFFF;
     border-radius: 10px;
@@ -83,4 +82,44 @@ header p{
     border: none;
     font-weight: bold;
     font-size: 24px;
+}
+/* Header style end */
+
+/* Speakers style start */
+.speakers{
+    margin-bottom: 80px;
+
+}
+.speakers h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 56px;
+
+}
+.speaker-container{
+    max-width: 1320px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+.speaker-p-1{
+    color: #2563EB;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.speaker-card h2{
+    color: #0D1B2A;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.speaker-p-2{
+    color: #575757;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 24px;
 }
