@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1550px;
+    margin: auto;
+}
+
+/* common style */
+.btn-primary{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 12px 41px 12px 41px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+/* Nav style start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 115px 23px 115px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-family: "Arimo", sans-serif;
+    text-decoration: none;
+    margin-right: 24px;
+    color: #575757;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* nav style end */
