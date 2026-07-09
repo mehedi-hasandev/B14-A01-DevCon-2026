@@ -11,6 +11,7 @@ body{
 
 /* common style */
 .btn-primary{
+    font-family: "Inter", sans-serif;
     background-color: #1D4ED8;
     color: #FFFFFF;
     border-radius: 10px;
@@ -44,3 +45,42 @@ ul li a{
     font-size: 16px;
 }
 /* nav style end */
+
+/* Header style start */
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/banner.jpg");
+    font-family: "Inter", sans-serif;
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 136px;
+    padding-bottom: 16px;
+}
+header p{
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 278px;
+}
+.header-btn{
+    text-align: center;
+    padding-bottom: 349px;
+}
+.btn-primary-2{
+    font-family: "Inter", sans-serif;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px 62px 25px 62px;
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+}
