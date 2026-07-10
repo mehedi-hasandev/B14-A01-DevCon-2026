@@ -31,13 +31,13 @@ nav{
     align-items: center;
     margin: 23px 115px 23px 115px;
 }
-ul{
+ nav ul{
     display: flex;
 }
-ul li{
+nav ul li{
     list-style: none;
 }
-ul li a{
+nav ul li a{
     font-family: "Arimo", sans-serif;
     text-decoration: none;
     margin-right: 24px;
@@ -47,15 +47,15 @@ ul li a{
 }
 /* nav style end */
 
-/* Header style start */
-header{
+/* Header/banner style start */
+.banner{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/banner.jpg");
     margin-bottom: 80px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-header h1{
+.banner h1{
     font-weight: bold;
     font-size: 80px;
     color: #FFFFFF;
@@ -63,14 +63,14 @@ header h1{
     padding-top: 136px;
     padding-bottom: 16px;
 }
-header p{
+.banner p{
     font-weight: 400;
     font-size: 22px;
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 278px;
 }
-.header-btn{
+.banner-btn{
     text-align: center;
     padding-bottom: 349px;
 }
@@ -122,4 +122,123 @@ header p{
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 24px;
+}
+/* speaker section end */
+
+/* pricing style start */
+.pricing{
+    margin-bottom: 80px;
+}
+.pricing h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+.pricing p{
+    text-align: center;
+    font-weight:400;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+hr{
+    color: #E5E7EB;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#pro-card hr{
+    color: #575656;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pricing-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+     margin-top: 48px;
+}
+.pricing-card{
+    border: 0.25px solid #eceaea;
+    text-align: left;
+    padding: 32px 32px;
+    border-radius: 12px;
+}
+.pricing-card h4{
+    text-align: left;
+    color: #888888;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.pricing-card h2{
+    text-align: left;
+    color: #0D1B2A;
+    font-weight:bold;
+    font-size: 44px;
+    margin-bottom: 4px;
+}
+.pricing-card p{
+    text-align: left;
+    color: #888888;
+    font-weight:400;
+    font-size: 13px;
+}
+.pricing-card ul li{
+    color: #333333;
+    font-weight:400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#contact-card{
+    background-color: #f7f7f7;
+}
+
+
+.btn-get-standard{
+    color: #2563EB;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 11px 106px 11px 106px;
+    border:1px solid #2563EB;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+.btn-get-pro{
+    background-color: #2563EB;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 11px 106px 11px 106px;
+    border:1px solid #2563EB;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+.btn-contact-us{
+    background-color:#FFFFFF ;
+    color: #0D1B2A;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 11px 106px 11px 106px;
+    border:1px solid #0D1B2A;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#pro-card{
+    background-color: #0D1B2A;
+}
+#pro-card h4{
+    color: #93C5FD;
+}
+#pro-card h2{
+    color: #FFFFFF;
+}
+#pro-card p{
+    color: #FFFFFF;
+}
+#pro-card li{
+    color: #FFFFFF;
 }
