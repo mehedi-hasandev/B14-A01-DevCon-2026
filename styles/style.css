@@ -1,17 +1,16 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     max-width: 1550px;
     margin: auto;
     font-family: "Inter", sans-serif;
 }
 
 /* common style */
-.btn-primary{
+.btn-primary {
     font-family: "Inter", sans-serif;
     background-color: #1D4ED8;
     color: #FFFFFF;
@@ -25,19 +24,22 @@ body{
 
 
 /* Nav style start */
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 23px 115px 23px 115px;
 }
- nav ul{
+
+nav ul {
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
-nav ul li a{
+
+nav ul li a {
     font-family: "Arimo", sans-serif;
     text-decoration: none;
     margin-right: 24px;
@@ -45,17 +47,19 @@ nav ul li a{
     font-weight: 500;
     font-size: 16px;
 }
+
 /* nav style end */
 
 /* Header/banner style start */
-.banner{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/banner.jpg");
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/banner.jpg");
     margin-bottom: 80px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.banner h1{
+
+.banner h1 {
     font-weight: bold;
     font-size: 80px;
     color: #FFFFFF;
@@ -63,18 +67,21 @@ nav ul li a{
     padding-top: 136px;
     padding-bottom: 16px;
 }
-.banner p{
+
+.banner p {
     font-weight: 400;
     font-size: 22px;
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 278px;
 }
-.banner-btn{
+
+.banner-btn {
     text-align: center;
     padding-bottom: 349px;
 }
-.btn-primary-2{
+
+.btn-primary-2 {
     background-color: #1D4ED8;
     color: #FFFFFF;
     border-radius: 10px;
@@ -83,162 +90,224 @@ nav ul li a{
     font-weight: bold;
     font-size: 24px;
 }
+
 /* Header style end */
 
 /* Speakers style start */
-.speakers{
+.speakers {
     margin-bottom: 80px;
 
 }
-.speakers h1{
+
+.speakers h1 {
     text-align: center;
     font-weight: bold;
     font-size: 56px;
     margin-bottom: 56px;
 
 }
-.speaker-container{
+
+.speaker-container {
     max-width: 1320px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
 }
-.speaker-p-1{
+
+.speaker-p-1 {
     color: #2563EB;
     font-weight: 600;
     font-size: 12px;
     margin-top: 24px;
     margin-bottom: 8px;
 }
-.speaker-card h2{
+
+.speaker-card h2 {
     color: #0D1B2A;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 8px;
 }
-.speaker-p-2{
+
+.speaker-p-2 {
     color: #575757;
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 24px;
 }
+
 /* speaker section end */
 
 /* pricing style start */
-.pricing{
+.pricing {
     margin-bottom: 80px;
 }
-.pricing h1{
+
+.pricing h1 {
     text-align: center;
     font-weight: bold;
     font-size: 48px;
     margin-bottom: 12px;
 }
-.pricing p{
+
+.pricing p {
     text-align: center;
-    font-weight:400;
+    font-weight: 400;
     font-size: 16px;
     margin-bottom: 12px;
 }
-hr{
+
+hr {
     color: #E5E7EB;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#pro-card hr{
+
+#pro-card hr {
     color: #575656;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.pricing-container{
+
+.pricing-container {
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
-     margin-top: 48px;
+    margin-top: 48px;
 }
-.pricing-card{
+
+.pricing-card {
     border: 0.25px solid #eceaea;
     text-align: left;
     padding: 32px 32px;
     border-radius: 12px;
 }
-.pricing-card h4{
+
+.pricing-card h4 {
     text-align: left;
     color: #888888;
     font-weight: 600;
     font-size: 13px;
     margin-bottom: 8px;
 }
-.pricing-card h2{
+
+.pricing-card h2 {
     text-align: left;
     color: #0D1B2A;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 44px;
     margin-bottom: 4px;
 }
-.pricing-card p{
+
+.pricing-card p {
     text-align: left;
     color: #888888;
-    font-weight:400;
+    font-weight: 400;
     font-size: 13px;
 }
-.pricing-card ul li{
+
+.pricing-card ul li {
     color: #333333;
-    font-weight:400;
+    font-weight: 400;
     font-size: 14px;
     margin-bottom: 10px;
 }
-#contact-card{
+
+#contact-card {
     background-color: #f7f7f7;
 }
 
 
-.btn-get-standard{
+.btn-get-standard {
     color: #2563EB;
     background-color: #FFFFFF;
     font-weight: 600;
     font-size: 14px;
     padding: 11px 106px 11px 106px;
-    border:1px solid #2563EB;
+    border: 1px solid #2563EB;
     border-radius: 8px;
     margin-top: 20px;
 
 }
-.btn-get-pro{
+
+.btn-get-pro {
     background-color: #2563EB;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 14px;
     padding: 11px 106px 11px 106px;
-    border:1px solid #2563EB;
+    border: 1px solid #2563EB;
     border-radius: 8px;
     margin-top: 20px;
 
 }
-.btn-contact-us{
-    background-color:#FFFFFF ;
+
+.btn-contact-us {
+    background-color: #FFFFFF;
     color: #0D1B2A;
     font-weight: 600;
     font-size: 14px;
     padding: 11px 106px 11px 106px;
-    border:1px solid #0D1B2A;
+    border: 1px solid #0D1B2A;
     border-radius: 8px;
     margin-top: 20px;
 }
-#pro-card{
+
+#pro-card {
     background-color: #0D1B2A;
 }
-#pro-card h4{
+
+#pro-card h4 {
     color: #93C5FD;
 }
-#pro-card h2{
+
+#pro-card h2 {
     color: #FFFFFF;
 }
-#pro-card p{
+
+#pro-card p {
     color: #FFFFFF;
 }
-#pro-card li{
+
+#pro-card li {
     color: #FFFFFF;
 }
+
+/* footer style start */
+.footer-container{
+    padding: 40px 20px;
+    background-color: #0D1B2A;
+    margin-bottom: 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+.footer-icons a {
+    margin-left: 15px;
+    font-size: 20px;
+    color: #474646;
+}
+
+.footer-divider {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    color: #868484;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+/* footer style end */
