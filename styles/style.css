@@ -219,7 +219,6 @@ hr {
     background-color: #f7f7f7;
 }
 
-
 .btn-get-standard {
     color: #2563EB;
     background-color: #FFFFFF;
@@ -275,7 +274,7 @@ hr {
     color: #FFFFFF;
 }
 
-/* pricing style start */
+/* pricing style end */
 
 
 /* Past Highlights style start  */
@@ -293,7 +292,6 @@ hr {
 
 
 .past-highlights h2 {
-    /* color: #0d47a1; */
     color: #0D1B2A;
     font-size: 48px;
     font-weight: bold;
@@ -322,7 +320,7 @@ hr {
 }
 
 
-.highlight-card-icon{
+.highlight-card-icon {
     font-size: 30px;
     color: #0D1B2A;
 }
@@ -341,10 +339,11 @@ hr {
     font-size: 1rem;
     margin: 0;
 }
+
 /* Past Highlights style end */
 
 /* footer style start */
-.footer-container{
+.footer-container {
     padding: 40px 20px;
     background-color: #0D1B2A;
     margin-bottom: 80px;
@@ -378,4 +377,5 @@ hr {
     margin-left: 115px;
     margin-right: 115px;
 }
+
 /* footer style end */
